@@ -19,7 +19,7 @@ const testimonials: Testimonial[] = [
     location: 'Cairo, Egypt',
     image: '/placeholder.svg',
     trip: 'Cappadocia Journey',
-    quote: 'TAYRA created a space where I could be both adventurous and authentic. Diana's deep knowledge of the culture and her warm leadership made this trip unforgettable. I've made friends for life.'
+    quote: "TAYRA created a space where I could be both adventurous and authentic. Diana's deep knowledge of the culture and her warm leadership made this trip unforgettable. I've made friends for life."
   },
   {
     id: 2,
