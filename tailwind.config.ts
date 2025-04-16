@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -76,6 +75,7 @@ export default {
 				sans: ['Inter', 'sans-serif'],
 				serif: ['Playfair Display', 'serif'],
 				arabic: ['Noto Sans Arabic', 'sans-serif'],
+				'eb-garamond': ['EB Garamond', 'serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
