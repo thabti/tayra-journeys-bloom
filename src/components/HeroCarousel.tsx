@@ -6,14 +6,16 @@ type CarouselSlide = {
   image: string;
   title: string;
   subtitle: string;
-  arabicText: string;
+  description?: string;
+  arabicText?: string;
 };
 
 const slides: CarouselSlide[] = [
   {
     image: '/lovable-uploads/4e64f02e-c472-4a10-a850-ff6422fb911f.png',
-    title: 'Discover New Horizons',
-    subtitle: 'Curated journeys designed for the bold woman',
+    title: 'Not every journey is made for her.',
+    subtitle: 'But this one is.',
+    description: 'Curated with intention. Designed with detail.',
     arabicText: 'رحلات مصممة للمرأة الجريئة'
   },
   {
@@ -28,12 +30,6 @@ const slides: CarouselSlide[] = [
     subtitle: 'Ancient wonders and vibrant culture',
     arabicText: 'عجائب قديمة وثقافة نابضة بالحياة'
   },
-  {
-    image: '/placeholder.svg',
-    title: 'Explore Patagonia',
-    subtitle: 'Adventure awaits at the end of the world',
-    arabicText: 'المغامرة تنتظرك في نهاية العالم'
-  }
 ];
 
 const HeroCarousel = () => {
@@ -67,8 +63,16 @@ const HeroCarousel = () => {
           <div className="absolute inset-0 hero-gradient"></div>
           <div className="absolute inset-0 flex flex-col justify-end items-center text-center pb-32 md:pb-48 px-4">
             <h1 className="text-4xl md:text-6xl font-bold text-white text-shadow mb-4">{slide.title}</h1>
-            <p className="text-lg md:text-xl text-white text-shadow mb-2">{slide.subtitle}</p>
-            <p className="text-lg md:text-xl arabic text-white text-shadow mb-8">{slide.arabicText}</p>
+            <p className="text-xl md:text-2xl text-white text-shadow mb-4">{slide.subtitle}</p>
+            {slide.description && (
+              <p className="text-lg md:text-xl text-white text-shadow mb-4">{slide.description}</p>
+            )}
+            {index === 0 && (
+              <p className="text-lg md:text-xl text-white text-shadow mb-8">Welcome to your next escape</p>
+            )}
+            {slide.arabicText && (
+              <p className="text-lg md:text-xl arabic text-white text-shadow mb-8">{slide.arabicText}</p>
+            )}
           </div>
         </div>
       ))}

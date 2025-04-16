@@ -8,20 +8,6 @@ const AboutSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="md:w-1/2">
-            <div className="relative">
-              <img 
-                src="/placeholder.svg" 
-                alt="Founder - Diana Abd Elrahman" 
-                className="rounded-lg shadow-lg w-full max-w-md mx-auto"
-              />
-              <div className="absolute -bottom-8 -right-8 bg-tayra-terra text-white p-6 rounded-lg shadow-lg hidden md:block">
-                <p className="font-serif italic">"Every journey begins with a single step, but it's the women who walk together that create lasting memories."</p>
-                <p className="mt-2 text-right">— Diana</p>
-              </div>
-            </div>
-          </div>
-          
-          <div className="md:w-1/2">
             <div className="space-y-6">
               <div className="inline-flex items-center space-x-2">
                 <div className="h-px w-12 bg-tayra-terra"></div>
@@ -31,7 +17,17 @@ const AboutSection = () => {
               <h2 className="text-3xl md:text-4xl font-serif font-bold">About TAYRA <span className="arabic">طايرة</span></h2>
               
               <p className="text-lg leading-relaxed">
-                TAYRA, meaning "flying" in Arabic, was born from a desire to create transformative travel experiences for women. Rooted in the Middle East but soaring beyond borders, we curate journeys that combine adventure, cultural immersion, and the unique bond of female fellowship.
+                Rooted in the Middle East, soaring beyond borders. Curated journeys, designed for the bold woman.
+              </p>
+              
+              <p className="text-lg leading-relaxed">
+                TAYRA (طايرة) — Arabic for "she who flies." And she never lands the same.
+              </p>
+              
+              <p className="text-lg leading-relaxed">
+                We lead women-only journeys that are curated, all-inclusive, and anything but ordinary. 
+                Think high-altitude hikes, local moments, and places that leave a mark. No fluff. 
+                Just real travel, made for women who want more than just a holiday.
               </p>
               
               <div className="grid grid-cols-2 gap-4 my-8">
@@ -67,15 +63,30 @@ const AboutSection = () => {
                   <p className="text-sm arabic">ونسير بخُطى حب نحو السفر</p>
                 </div>
               </div>
-              
-              <div className="space-y-4">
-                <h3 className="text-xl font-serif">About the Founder</h3>
-                <p>
-                  Diana Abd Elrahman founded TAYRA with a vision to empower women through travel. Drawing from her extensive explorations across five continents and her deep connection to her Middle Eastern heritage, Diana leads each journey personally, creating safe spaces for women to explore, connect, and grow.
+            </div>
+          </div>
+          
+          <div className="md:w-1/2">
+            <div className="relative">
+              <img 
+                src="/placeholder.svg" 
+                alt="Founder - Diana Abd Elrahman" 
+                className="rounded-lg shadow-lg w-full max-w-md mx-auto"
+              />
+              <div className="space-y-4 mt-6">
+                <h3 className="text-2xl font-serif font-bold">Diana Abd Elrahman</h3>
+                <h4 className="text-lg font-medium text-tayra-terra">Founder of TAYRA</h4>
+                <p className="text-lg leading-relaxed">
+                  Diana Abd Elrahman is the founder of TAYRA — She's explored over 43 countries, drawn to raw landscapes, 
+                  deep connection, and the kind of moments that shift something inside you.
                 </p>
-                <Button className="bg-tayra-terra hover:bg-tayra-terra/90 text-white rounded-full group mt-2">
-                  Read Diana's Story <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                <p className="text-lg leading-relaxed">
+                  Middle Eastern by roots, global by nature — Diana created TAYRA to be more than just a travel brand. 
+                  It's a space for women to explore with depth, freedom, and womanhood.
+                </p>
+                <p className="text-lg leading-relaxed italic font-medium">
+                  TAYRA is her love letter to women who dare to go.
+                </p>
               </div>
             </div>
           </div>

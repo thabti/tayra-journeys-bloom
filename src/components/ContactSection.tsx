@@ -1,10 +1,9 @@
 
 import { useState } from 'react';
-import { Check, MapPin, Mail, Phone } from 'lucide-react';
+import { Check, MapPin, Mail, Phone, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { CheckedState } from '@radix-ui/react-checkbox';
 import { Checkbox } from '@/components/ui/checkbox';
 import { useToast } from '@/hooks/use-toast';
@@ -12,9 +11,11 @@ import { useToast } from '@/hooks/use-toast';
 const destinations = [
   { value: 'cappadocia', label: 'Cappadocia' },
   { value: 'peru', label: 'Peru' },
+  { value: 'patagonia', label: 'Chile/Patagonia' },
   { value: 'brazil', label: 'Brazil' },
-  { value: 'patagonia', label: 'Patagonia' },
-  { value: 'other', label: 'Other (please specify)' },
+  { value: 'kyrgyzstan', label: 'Kyrgyzstan' },
+  { value: 'mongolia', label: 'Mongolia' },
+  { value: 'iceland', label: 'Iceland' },
 ];
 
 const ContactSection = () => {
@@ -64,9 +65,9 @@ const ContactSection = () => {
                 <span className="text-tayra-terra uppercase tracking-wider text-sm font-medium">Contact Us</span>
               </div>
               
-              <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Start Your Journey</h2>
+              <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Welcome to Your Next Escape</h2>
               <p className="text-lg text-gray-600">
-                Interested in joining one of our upcoming trips or have questions? We'd love to hear from you.
+                Sign up for one of our upcoming trips or join our mailing list to stay updated on future journeys.
               </p>
             </div>
             
@@ -77,7 +78,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="font-serif font-bold text-lg">Our Home Base</h3>
-                  <p className="text-gray-600">Cairo, Egypt with journeys worldwide</p>
+                  <p className="text-gray-600">Dubai, UAE</p>
                 </div>
               </div>
               
@@ -97,7 +98,17 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="font-serif font-bold text-lg">Call Us</h3>
-                  <p className="text-gray-600">+20 123 456 7890</p>
+                  <p className="text-gray-600">+971 527459027</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start space-x-4">
+                <div className="bg-tayra-mint/20 p-3 rounded-full">
+                  <Instagram className="h-6 w-6 text-tayra-terra" />
+                </div>
+                <div>
+                  <h3 className="font-serif font-bold text-lg">Follow Us</h3>
+                  <p className="text-gray-600">@tayraworld</p>
                 </div>
               </div>
             </div>
