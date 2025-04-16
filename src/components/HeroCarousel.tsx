@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useCallback } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -7,7 +6,6 @@ type CarouselSlide = {
   title: string;
   subtitle: string;
   description?: string;
-  arabicText?: string;
 };
 
 const slides: CarouselSlide[] = [
@@ -16,19 +14,16 @@ const slides: CarouselSlide[] = [
     title: 'Not every journey is made for her.',
     subtitle: 'But this one is.',
     description: 'Curated with intention. Designed with detail.',
-    arabicText: 'رحلات مصممة للمرأة الجريئة'
   },
   {
     image: '/placeholder.svg',
     title: 'Experience Cappadocia',
     subtitle: 'Float above the fairy chimneys at dawn',
-    arabicText: 'حلّقي فوق كبادوكيا عند الفجر'
   },
   {
     image: '/placeholder.svg',
     title: 'Journey Through Peru',
     subtitle: 'Ancient wonders and vibrant culture',
-    arabicText: 'عجائب قديمة وثقافة نابضة بالحياة'
   },
 ];
 
@@ -44,9 +39,9 @@ const HeroCarousel = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(nextSlide, 6000);
+    const interval = setInterval(nextSlide, currentSlide === 0 ? 5000 : 6000);
     return () => clearInterval(interval);
-  }, [nextSlide]);
+  }, [nextSlide, currentSlide]);
 
   return (
     <div className="carousel-container">
@@ -62,16 +57,17 @@ const HeroCarousel = () => {
         >
           <div className="absolute inset-0 hero-gradient"></div>
           <div className="absolute inset-0 flex flex-col justify-end items-center text-center pb-32 md:pb-48 px-4">
-            <h1 className="text-4xl md:text-6xl font-bold text-white text-shadow mb-4">{slide.title}</h1>
-            <p className="text-xl md:text-2xl text-white text-shadow mb-4">{slide.subtitle}</p>
+            <h1 className="text-5xl md:text-7xl font-bold text-white text-shadow mb-4 tracking-tight leading-tight">{slide.title}</h1>
+            <p className="text-2xl md:text-3xl text-white text-shadow mb-4 font-medium">{slide.subtitle}</p>
             {slide.description && (
-              <p className="text-lg md:text-xl text-white text-shadow mb-4">{slide.description}</p>
+              <p className="text-xl md:text-2xl text-white text-shadow mb-4 font-light">
+                {slide.description}
+              </p>
             )}
             {index === 0 && (
-              <p className="text-lg md:text-xl text-white text-shadow mb-8">Welcome to your next escape</p>
-            )}
-            {slide.arabicText && (
-              <p className="text-lg md:text-xl arabic text-white text-shadow mb-8">{slide.arabicText}</p>
+              <p className="text-xl md:text-2xl text-white text-shadow mb-8 font-light">
+                Welcome to your next escape
+              </p>
             )}
           </div>
         </div>
