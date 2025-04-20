@@ -3,12 +3,12 @@ import { Check } from 'lucide-react';
 
 const IncludedSection = () => {
   const includedItems = [
-    'Roundtrip flight tickets',
+    'Roundtrip Flight Tickets',
     'Boutique Hotel Stays',
-    'Travel insurance upon request',
-    'Supportive women\'s community',
-    'Curated local experiences',
-    'Women leading the trip'
+    'Travel Insurance Upon Request',
+    'Supportive Women\'s Community',
+    'Curated Local Experiences',
+    'Women Leading The Trip'
   ];
 
   return (
