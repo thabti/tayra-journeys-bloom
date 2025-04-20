@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Calendar, Clock, Users, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -24,7 +23,7 @@ const destinations: Destination[] = [
     id: 1,
     name: 'Cappadocia',
     arabicName: 'كابادوكيا',
-    image: '/placeholder.svg',
+    image: '/lovable-uploads/8a30790a-d4da-44a0-8b33-1a2e4b1f8bb1.png',
     date: 'May 8-11, 2028',
     duration: '4 days',
     groupSize: '6-8 women',
@@ -37,7 +36,7 @@ const destinations: Destination[] = [
     id: 2,
     name: 'Peru',
     arabicName: 'بيرو',
-    image: '/placeholder.svg',
+    image: '/lovable-uploads/460c8f1f-70ec-43c8-9356-e2033e008849.png',
     date: 'May 30-June 7, 2025',
     duration: '9 days',
     groupSize: '6-10 women',
@@ -50,40 +49,14 @@ const destinations: Destination[] = [
     id: 3,
     name: 'Brazil',
     arabicName: 'البرازيل',
-    image: '/placeholder.svg',
-    date: 'July 10-20, 2025',
-    duration: '11 days',
+    image: '/lovable-uploads/ba92902b-8a03-494e-a7d8-e2d94527f324.png',
+    date: 'June 20-July 1, 2025',
+    duration: '12 days',
     groupSize: '6-10 women',
-    price: 3600,
-    featured: false,
-    tags: ['Rio', 'Rainforest', 'Beaches'],
-    description: 'Experience the vibrant culture of Rio, trek through the lush Amazon rainforest, and relax on pristine beaches.'
-  },
-  {
-    id: 4,
-    name: 'Patagonia, Chile',
-    arabicName: 'باتاغونيا',
-    image: '/placeholder.svg',
-    date: 'June 25-July 7, 2025',
-    duration: '13 days',
-    groupSize: '6-10 women',
-    price: 4500,
+    price: 3900,
     featured: true,
-    tags: ['Hiking', 'Glaciers', 'Wildlife'],
-    description: 'Trek through stunning landscapes, witness massive glaciers, and spot unique wildlife in this remote wilderness.'
-  },
-  {
-    id: 5,
-    name: 'Kyrgyzstan',
-    arabicName: 'قيرغيزستان',
-    image: '/placeholder.svg',
-    date: 'August 2025 (TBC)',
-    duration: 'TBC',
-    groupSize: '6-10 women',
-    price: 2800,
-    featured: false,
-    tags: ['Nomadic Culture', 'Mountains', 'Adventure'],
-    description: 'Immerse yourself in nomadic traditions, explore breathtaking mountain landscapes, and experience authentic Central Asian hospitality.'
+    tags: ['Rio', 'Christ the Redeemer', 'Beaches'],
+    description: 'Experience the vibrant culture of Rio, visit the iconic Christ the Redeemer, and relax on pristine beaches with breathtaking views.'
   },
 ];
 
