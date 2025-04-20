@@ -27,7 +27,7 @@ const AboutSection = () => {
               <p className="text-lg leading-relaxed font-eb-garamond">
                 We lead women-only journeys that are curated, all-inclusive, and anything but ordinary. 
                 Think high-altitude hikes, local moments, and places that leave a mark. No fluff. 
-                Just real travel, made for women who want more than just a holiday.
+                Just real travel, made for women who want
               </p>
               
               <div className="grid grid-cols-2 gap-4 my-8">
@@ -35,28 +35,28 @@ const AboutSection = () => {
                   <div className="bg-tayra-mint/20 p-3 rounded-full mb-3">
                     <Map className="h-6 w-6 text-tayra-terra" />
                   </div>
-                  <h3 className="font-eb-garamond font-medium">MIDDLE EASTERN ROOTS</h3>
+                  <h3 className="font-eb-garamond font-medium">Middle Eastern Roots</h3>
                 </div>
                 
                 <div className="flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-sm">
                   <div className="bg-tayra-mint/20 p-3 rounded-full mb-3">
                     <Globe className="h-6 w-6 text-tayra-terra" />
                   </div>
-                  <h3 className="font-eb-garamond font-medium">GLOBAL HEART</h3>
+                  <h3 className="font-eb-garamond font-medium">Global Heart</h3>
                 </div>
                 
                 <div className="flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-sm">
                   <div className="bg-tayra-mint/20 p-3 rounded-full mb-3">
                     <Heart className="h-6 w-6 text-tayra-terra" />
                   </div>
-                  <h3 className="font-eb-garamond font-medium">CULTURE & WOMANHOOD</h3>
+                  <h3 className="font-eb-garamond font-medium">Culture & Womanhood</h3>
                 </div>
                 
                 <div className="flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-sm">
                   <div className="bg-tayra-mint/20 p-3 rounded-full mb-3">
                     <Plane className="h-6 w-6 text-tayra-terra" />
                   </div>
-                  <h3 className="font-eb-garamond font-medium">LOVE FOR TRAVEL</h3>
+                  <h3 className="font-eb-garamond font-medium">Love for Travel</h3>
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@ const AboutSection = () => {
           <div className="md:w-1/2">
             <div className="relative">
               <img 
-                src="/placeholder.svg" 
+                src="/lovable-uploads/22c5dcca-19de-463f-923a-8f0c29150e9f.png" 
                 alt="Founder - Diana Abd Elrahman" 
                 className="rounded-lg shadow-lg w-full max-w-md mx-auto"
               />

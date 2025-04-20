@@ -78,8 +78,8 @@ const DestinationsSection = () => {
           </div>
           
           <h2 className="text-3xl md:text-5xl font-serif font-bold mb-4">Upcoming Journeys</h2>
-          <p className="text-lg text-gray-600">
-            Join our small group adventures designed exclusively for women seeking authentic cultural experiences and meaningful connections.
+          <p className="text-lg text-gray-600 font-eb-garamond">
+            Join our boutique-style travel adventures designed exclusively for women seeking authentic cultural experiences and meaningful connections with like-minded individuals.
           </p>
           
           <div className="flex justify-center mt-8 space-x-4">
