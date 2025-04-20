@@ -11,17 +11,17 @@ const AboutSection = () => {
             <div className="space-y-6">
               <div className="inline-flex items-center space-x-2">
                 <div className="h-px w-12 bg-tayra-terra"></div>
-                <span className="text-tayra-terra uppercase tracking-wider text-sm font-medium">Our Story</span>
+                <span className="text-tayra-terra uppercase tracking-wider text-sm font-medium font-eb-garamond">Our Story</span>
               </div>
               
-              <h2 className="text-3xl md:text-4xl font-eb-garamond font-bold">About TAYRA</h2>
+              <h2 className="text-3xl md:text-4xl font-bold font-eb-garamond">About TAYRA</h2>
               
               <p className="text-lg leading-relaxed font-eb-garamond">
                 Rooted in the Middle East, soaring beyond borders. Curated journeys, designed for the bold woman.
               </p>
               
               <p className="text-lg leading-relaxed font-eb-garamond">
-                TAYRA — She who flies. And she never lands the same.
+                TAYRA "طايرة" — She who flies. And she never lands the same.
               </p>
               
               <p className="text-lg leading-relaxed font-eb-garamond">
@@ -35,28 +35,28 @@ const AboutSection = () => {
                   <div className="bg-tayra-mint/20 p-3 rounded-full mb-3">
                     <Map className="h-6 w-6 text-tayra-terra" />
                   </div>
-                  <h3 className="font-eb-garamond font-medium">Middle Eastern roots</h3>
+                  <h3 className="font-eb-garamond font-medium">MIDDLE EASTERN ROOTS</h3>
                 </div>
                 
                 <div className="flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-sm">
                   <div className="bg-tayra-mint/20 p-3 rounded-full mb-3">
                     <Globe className="h-6 w-6 text-tayra-terra" />
                   </div>
-                  <h3 className="font-eb-garamond font-medium">Global heart</h3>
+                  <h3 className="font-eb-garamond font-medium">GLOBAL HEART</h3>
                 </div>
                 
                 <div className="flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-sm">
                   <div className="bg-tayra-mint/20 p-3 rounded-full mb-3">
                     <Heart className="h-6 w-6 text-tayra-terra" />
                   </div>
-                  <h3 className="font-eb-garamond font-medium">Culture & Womanhood</h3>
+                  <h3 className="font-eb-garamond font-medium">CULTURE & WOMANHOOD</h3>
                 </div>
                 
                 <div className="flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-sm">
                   <div className="bg-tayra-mint/20 p-3 rounded-full mb-3">
                     <Plane className="h-6 w-6 text-tayra-terra" />
                   </div>
-                  <h3 className="font-eb-garamond font-medium">Love for Travel</h3>
+                  <h3 className="font-eb-garamond font-medium">LOVE FOR TRAVEL</h3>
                 </div>
               </div>
             </div>
@@ -73,15 +73,19 @@ const AboutSection = () => {
                 <h3 className="text-2xl font-eb-garamond font-bold">Diana Abd Elrahman</h3>
                 <h4 className="text-lg font-medium text-tayra-terra font-eb-garamond">Founder of TAYRA</h4>
                 <p className="text-lg leading-relaxed font-eb-garamond">
-                  Diana Abd Elrahman is the founder of TAYRA — She's explored over 43 countries, drawn to raw landscapes, 
-                  deep connection, and the kind of moments that shift something inside you.
+                  I'm Diana Abd Elrahman — the woman behind TAYRA. A Palestinian with a global heart, 
+                  and a passport that's seen over 44 countries. But more than just collecting stamps, 
+                  I've collected stories and lessons that have shifted something inside of me.
                 </p>
                 <p className="text-lg leading-relaxed font-eb-garamond">
-                  Middle Eastern by roots, global by nature — Diana created TAYRA to be more than just a travel brand. 
-                  It's a space for women to explore with depth, freedom, and womanhood.
+                  This isn't just another travel brand. It's a love letter — written for women like me.
+                </p>
+                <p className="text-lg leading-relaxed font-eb-garamond">
+                  For every woman who's ever said: "I want to go, but I don't know how." 
+                  For the bold ones. The curious ones. The ones who are done waiting for someone to come around.
                 </p>
                 <p className="text-lg leading-relaxed italic font-medium font-eb-garamond">
-                  TAYRA is her love letter to women who dare to go.
+                  TAYRA was built so you can take off — unapologetically.
                 </p>
               </div>
             </div>
