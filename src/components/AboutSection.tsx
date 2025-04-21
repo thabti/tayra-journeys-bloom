@@ -65,7 +65,7 @@ const AboutSection = () => {
           <div className="md:w-1/2">
             <div className="relative">
               <img 
-                src="/lovable-uploads/22c5dcca-19de-463f-923a-8f0c29150e9f.png" 
+                src="/images/diana.jpg" 
                 alt="Founder - Diana Abd Elrahman" 
                 className="rounded-lg shadow-lg w-full max-w-md mx-auto"
               />
