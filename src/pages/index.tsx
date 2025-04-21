@@ -5,8 +5,8 @@ import Footer from '../components/Footer';
 import HeroCarousel from '../components/HeroCarousel';
 import IncludedSection from '../components/IncludedSection';
 import Navbar from '../components/Navbar';
-import PackagesSection from '../components/PackagesSection';
-import TestimonialsSection from '../components/TestimonialsSection';
+// import PackagesSection from '../components/PackagesSection';
+// import TestimonialsSection from '../components/TestimonialsSection';
 
 export default function Home() {
   return (
@@ -16,8 +16,8 @@ export default function Home() {
       <DestinationsSection />
       <IncludedSection />
       <AboutSection />
-      <PackagesSection />
-      <TestimonialsSection />
+      {/* <PackagesSection /> */}
+      {/* <TestimonialsSection /> */}
       <ContactSection />
       <Footer />
     </div>
