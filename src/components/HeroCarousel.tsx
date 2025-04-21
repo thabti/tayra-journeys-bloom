@@ -11,7 +11,7 @@ type CarouselSlide = {
 
 const slides: CarouselSlide[] = [
   {
-    image: '/lovable-uploads/94b1fdf8-29c4-4261-98c7-0d97178fa62f.png',
+    image: '/images/IMG_6100.JPG',
     title: 'Not every journey is made for her.',
     subtitle: 'But this one is.',
     description: 'Curated with intention. Designed with detail.',
