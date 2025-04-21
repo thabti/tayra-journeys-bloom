@@ -38,7 +38,7 @@ const Footer = () => {
               <li><a href="#" className="text-white/80 hover:text-white transition-colors">Cappadocia</a></li>
               <li><a href="#" className="text-white/80 hover:text-white transition-colors">Peru</a></li>
               <li><a href="#" className="text-white/80 hover:text-white transition-colors">Brazil</a></li>
-              <li><a href="#" className="text-white/80 hover:text-white transition-colors">Patagonia</a></li>
+              {/* <li><a href="#" className="text-white/80 hover:text-white transition-colors">Patagonia</a></li> */}
               <li><a href="#" className="text-white/80 hover:text-white transition-colors">View All</a></li>
             </ul>
           </div>
@@ -47,14 +47,14 @@ const Footer = () => {
             <h3 className="font-serif font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li><a href="#about" className="text-white/80 hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#packages" className="text-white/80 hover:text-white transition-colors">Travel Packages</a></li>
-              <li><a href="#testimonials" className="text-white/80 hover:text-white transition-colors">Testimonials</a></li>
+              {/* <li><a href="#packages" className="text-white/80 hover:text-white transition-colors">Travel Packages</a></li> */}
+              {/* <li><a href="#testimonials" className="text-white/80 hover:text-white transition-colors">Testimonials</a></li> */}
               <li><a href="#" className="text-white/80 hover:text-white transition-colors">FAQs</a></li>
               <li><a href="#contact" className="text-white/80 hover:text-white transition-colors">Contact Us</a></li>
             </ul>
           </div>
           
-          <div>
+          {/* <div>
             <h3 className="font-serif font-bold text-lg mb-4">Legal</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-white/80 hover:text-white transition-colors">Terms & Conditions</a></li>
@@ -63,7 +63,7 @@ const Footer = () => {
               <li><a href="#" className="text-white/80 hover:text-white transition-colors">Travel Insurance</a></li>
               <li><a href="#" className="text-white/80 hover:text-white transition-colors">Booking Information</a></li>
             </ul>
-          </div>
+          </div> */}
         </div>
         
         <div className="mt-12 pt-8 border-t border-white/20 text-center text-white/70">

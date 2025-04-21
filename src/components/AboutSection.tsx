@@ -84,9 +84,7 @@ const AboutSection = () => {
                   For every woman who's ever said: "I want to go, but I don't know how." 
                   For the bold ones. The curious ones. The ones who are done waiting for someone to come around.
                 </p>
-                <p className="text-lg leading-relaxed italic font-medium font-eb-garamond">
-                  TAYRA was built so you can take off — unapologetically.
-                </p>
+             
               </div>
             </div>
           </div>
@@ -95,5 +93,7 @@ const AboutSection = () => {
     </section>
   );
 };
+
+// font-eb-garamond
 
 export default AboutSection;
