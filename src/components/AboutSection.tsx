@@ -20,15 +20,15 @@ const AboutSection = () => {
                 Rooted in the Middle East, soaring beyond borders. Curated journeys, designed for the bold woman.
               </p>
               
+           
+              <p className="text-lg leading-relaxed font-eb-garamond">
+              We lead women-only journeys that are curated, all-inclusive, and anything but ordinary. Think high-altitude hikes, local moments, and places that leave a mark. No fluff. Just real travel, made for women who want more.
+              </p>
+              
               <p className="text-lg leading-relaxed font-eb-garamond">
                 TAYRA "طايرة" — She who flies. And she never lands the same.
               </p>
               
-              <p className="text-lg leading-relaxed font-eb-garamond">
-                We lead women-only journeys that are curated, all-inclusive, and anything but ordinary. 
-                Think high-altitude hikes, local moments, and places that leave a mark. No fluff. 
-                Just real travel, made for women who want
-              </p>
               
               <div className="grid grid-cols-2 gap-4 my-8">
                 <div className="flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-sm">
