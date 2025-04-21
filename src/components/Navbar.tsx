@@ -74,17 +74,17 @@ const Navbar = () => {
           <div className="md:hidden pt-4 pb-3 space-y-1 animate-slide-in-right">
             <a href="#destinations" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md">Destinations</a>
             <a href="#about" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md">About Us</a>
-            <a href="#packages" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md">Travel Packages</a>
-            <a href="#testimonials" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md">Testimonials</a>
+            {/* <a href="#packages" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md">Travel Packages</a> */}
+            {/* <a href="#testimonials" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md">Testimonials</a> */}
             <a href="#contact" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md">Contact</a>
-            <div className="pt-4 flex flex-col space-y-2">
+            {/* <div className="pt-4 flex flex-col space-y-2">
               <Button variant="outline" className="rounded-full bg-white text-tayra-terra border-tayra-terra hover:bg-tayra-cream">
                 Sign Up
               </Button>
               <Button className="bg-tayra-terra hover:bg-tayra-terra/90 text-white rounded-full">
                 Book Now
               </Button>
-            </div>
+            </div> */}
           </div>
         )}
       </div>
