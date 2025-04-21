@@ -27,7 +27,7 @@ const destinations: Destination[] = [
     image: '/images/cappadocia.jpg',
     date: 'May 8-11, 2028',
     duration: '4 days',
-    groupSize: '6-8 Women',
+    groupSize: '6-8 women',
     price: 1800,
     featured: true,
     tags: ['Hot Air Balloons', 'Cave Hotels', 'Turkish Culture'],
@@ -40,7 +40,7 @@ const destinations: Destination[] = [
     image: '/images/machu.jpg',
     date: 'May 30-June 7, 2025',
     duration: '9 days',
-    groupSize: '6-10 Women',
+    groupSize: '6-8 women',
     price: 3400,
     featured: true,
     tags: ['Machu Picchu', 'Andes', 'Indigenous Culture'],
@@ -53,7 +53,7 @@ const destinations: Destination[] = [
     image: '/images/brazil.jpg',
     date: 'June 20-July 1, 2025',
     duration: '12 days',
-    groupSize: '6-10 Women',
+    groupSize: '6-8 women',
     price: 3900,
     featured: true,
     tags: ['Rio', 'Christ the Redeemer', 'Beaches'],
@@ -80,7 +80,7 @@ const DestinationsSection = () => {
           
           <h2 className="text-3xl md:text-5xl font-serif font-bold mb-4">Upcoming Journeys</h2>
           <p className="text-lg text-gray-600 font-eb-garamond">
-            Join our boutique-style travel adventures designed exclusively for Women seeking authentic cultural experiences and meaningful connections with like-minded individuals.
+            Join our boutique-style travel adventures designed exclusively for women seeking authentic cultural experiences and meaningful connections with like-minded individuals.
           </p>
           
           {/* <div className="flex justify-center mt-8 space-x-4">
