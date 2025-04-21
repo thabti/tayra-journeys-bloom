@@ -68,7 +68,7 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-white/20 text-center text-white/70">
           <p className="flex items-center justify-center">
-            &copy; {currentYear} TAYRA Travel. All rights reserved. Crafted with <Heart className="h-4 w-4 mx-1 text-red-400" /> by Diana Abd Elrahman
+            &copy; {currentYear} TAYRA Travel. All rights reserved.
           </p>
         </div>
       </div>
