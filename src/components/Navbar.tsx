@@ -49,14 +49,14 @@ const Navbar = () => {
             <a href="#contact" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`}>Contact</a>
           </nav>
 
-          <div className="hidden md:flex items-center space-x-4">
+          {/* <div className="hidden md:flex items-center space-x-4">
             <Button variant="outline" className={`rounded-full ${isScrolled ? 'bg-white text-tayra-terra border-tayra-terra hover:bg-tayra-cream' : 'bg-transparent text-white border-white hover:bg-white/20'}`}>
               Sign Up
             </Button>
             <Button className="bg-tayra-terra hover:bg-tayra-terra/90 text-white rounded-full">
               Book Now
             </Button>
-          </div>
+          </div> */}
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
