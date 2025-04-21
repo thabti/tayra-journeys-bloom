@@ -17,6 +17,7 @@ type Destination = {
   featured: boolean;
   tags: string[];
   description: string;
+  link: string;
 };
 
 const destinations: Destination[] = [
@@ -31,7 +32,8 @@ const destinations: Destination[] = [
     price: 1800,
     featured: true,
     tags: ['Hot Air Balloons', 'Cave Hotels', 'Turkish Culture'],
-    description: 'Float above fairy chimneys at dawn, stay in ancient cave dwellings, enjoy lots of tea, and experience a sunset horseback ride.'
+    description: 'Float above fairy chimneys at dawn, stay in ancient cave dwellings, enjoy lots of tea, and experience a sunset horseback ride.',
+    link: "https://form.jotform.com/Travel_Tayra/CAPPADOCIA_MAY2025"
   },
   {
     id: 2,
@@ -44,7 +46,8 @@ const destinations: Destination[] = [
     price: 3400,
     featured: true,
     tags: ['Machu Picchu', 'Andes', 'Indigenous Culture'],
-    description: 'Hike the legendary Inca Trail, explore the Sacred Valley, and connect with indigenous communities in the Andes.'
+    description: 'Hike the legendary Inca Trail, explore the Sacred Valley, and connect with indigenous communities in the Andes.',
+    link: "https://form.jotform.com/Travel_Tayra/PERU_JUNE2025"
   },
   {
     id: 3,
@@ -57,7 +60,8 @@ const destinations: Destination[] = [
     price: 3900,
     featured: true,
     tags: ['Rio', 'Christ the Redeemer', 'Beaches'],
-    description: 'Experience the vibrant culture of Rio, visit the iconic Christ the Redeemer, and relax on pristine beaches with breathtaking views.'
+    description: 'Experience the vibrant culture of Rio, visit the iconic Christ the Redeemer, and relax on pristine beaches with breathtaking views.',
+    link: "https://form.jotform.com/Travel_Tayra/BRAZIL_JUNE2025"
   },
 ];
 
@@ -148,9 +152,9 @@ const DestinationsSection = () => {
                   <div className="text-lg font-bold">
                     From <span className="text-tayra-terra">${destination.price}</span>
                   </div>
-                  <Button className="bg-tayra-terra hover:bg-tayra-terra/90 text-white rounded-full">
+                  <a href={destination.link} className="bg-tayra-terra p-2 hover:bg-tayra-terra/90 text-white rounded-full">
                     Details
-                  </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
