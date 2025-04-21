@@ -37,15 +37,7 @@ const Navbar = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#destinations" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`}>Destinations</a>
             <a href="#about" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`}>About Us</a>
-            <div className="relative group">
-              <button className={`flex items-center font-medium group-hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`}>
-                Experiences <ChevronDown className="ml-1 h-4 w-4" />
-              </button>
-              <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-10 hidden group-hover:block">
-                <a href="#packages" className="block px-4 py-2 text-sm text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra">Travel Packages</a>
-                <a href="#testimonials" className="block px-4 py-2 text-sm text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra">Testimonials</a>
-              </div>
-            </div>
+            <a href="#destinations" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`}>Destinations</a>
             <a href="#contact" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`}>Contact</a>
           </nav>
 
