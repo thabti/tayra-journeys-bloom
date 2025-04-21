@@ -3,6 +3,7 @@ import type { Config } from "tailwindcss";
 export default {
 	darkMode: ["class"],
 	content: [
+		"./nextjs-project/app/**/*.{ts,tsx}",
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",

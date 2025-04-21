@@ -1,8 +1,8 @@
 
 import { useState, useEffect } from 'react';
 import { Menu, X, Search, ChevronDown } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-
+import { Button } from './ui/button';
+import { useToast } from '../../hooks/use-toast';
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
