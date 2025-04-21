@@ -17,15 +17,15 @@ const Footer = () => {
               Rooted in the Middle East, soaring beyond borders. Curated journeys, designed for the bold woman.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-tayra-mint transition-colors">
+              <a href="https://www.instagram.com/tayraworld" className="text-white hover:text-tayra-mint transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-white hover:text-tayra-mint transition-colors">
+              {/* <a href="#" className="text-white hover:text-tayra-mint transition-colors">
                 <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-white hover:text-tayra-mint transition-colors">
+              </a> */}
+              {/* <a href="#" className="text-white hover:text-tayra-mint transition-colors">
                 <Twitter className="h-5 w-5" />
-              </a>
+              </a> */}
               <a href="mailto:fly@tayra.me" className="text-white hover:text-tayra-mint transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
