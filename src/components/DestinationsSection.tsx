@@ -26,7 +26,7 @@ const destinations: Destination[] = [
     name: 'Cappadocia',
     arabicName: 'كابادوكيا',
     image: '/images/cappadocia.jpg',
-    date: 'May 8-11, 2028',
+    date: 'May 8-11, 2025',
     duration: '4 days',
     groupSize: '6-8 women',
     price: 1800,
