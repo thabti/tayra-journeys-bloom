@@ -74,8 +74,8 @@ const TestimonialsSection = () => {
           <div className="inline-flex items-center space-x-2 mb-3">
             <div className="h-px w-8 bg-tayra-terra"></div>
             <span className="text-tayra-terra uppercase tracking-wider text-sm font-medium">Voices</span>
-            <div className="h-px w-8 bg-tayra-terra"></div>
-          </div>
+           <div className="h-px w-8 bg-tayra-terra"></div>
+          </div> 
           
           <h2 className="text-3xl md:text-5xl font-serif font-bold mb-4">Stories from Our Travelers</h2>
           <p className="text-lg text-gray-600">
@@ -110,7 +110,7 @@ const TestimonialsSection = () => {
                             <h4 className="font-serif font-bold text-lg">{testimonial.name}</h4>
                             <div className="flex justify-between items-center">
                               <span className="text-gray-600">{testimonial.location}</span>
-                              <span className="text-tayra-terra font-medium text-sm">{testimonial.trip}</span>
+                             <span className="text-tayra-terra font-medium text-sm">{testimonial.trip}</span>
                             </div>
                           </div>
                         </div>
@@ -122,7 +122,7 @@ const TestimonialsSection = () => {
             </div>
           </div>
           
-          <button 
+         <button 
             onClick={prevTestimonial}
             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-white shadow-lg hover:bg-tayra-mint/30 text-tayra-terra p-3 rounded-full z-10"
             aria-label="Previous testimonial"

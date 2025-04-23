@@ -183,11 +183,10 @@ const PackagesSection = () => {
             </div>
             
             <div className="mt-8 text-center">
-              <Button className="bg-tayra-terra hover:bg-tayra-terra/90 text-white rounded-full group">
-              onClick={() =>
+              <Button onClick={() =>
                   trackEvent('Click', 'Request Custom Package', 'PackagesSection')
-                }
-                Request Custom Package <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                }className="bg-tayra-terra hover:bg-tayra-terra/90 text-white rounded-full group">
+              Request Custom Package <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
           </div>

@@ -20,7 +20,7 @@ const IncludedSection = () => {
             <span className="text-tayra-terra uppercase tracking-wider text-sm font-medium">What We Offer</span>
             <div className="h-px w-8 bg-tayra-terra"></div>
           </div>
-          
+
           <h2 className="text-3xl md:text-5xl font-serif font-bold mb-4">What's Included in Every TAYRA Journey</h2>
           <p className="text-lg text-gray-600">
             Every journey is thoughtfully designed to provide an exceptional experience for women travelers.
