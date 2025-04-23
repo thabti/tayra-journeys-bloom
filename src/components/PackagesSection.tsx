@@ -2,6 +2,7 @@
 import { Check, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card';
+import { trackEvent } from '@/lib/utils';
 
 const PackagesSection = () => {
   const packages = [
@@ -109,6 +110,10 @@ const PackagesSection = () => {
                       ? 'bg-tayra-terra hover:bg-tayra-terra/90 text-white rounded-full w-full'
                       : 'bg-tayra-sage hover:bg-tayra-sage/90 text-white rounded-full w-full'
                   }
+                  onClick={() =>
+                    trackEvent('Choose Package', 'PackagesSection')
+                  }
+
                 >
                   Choose Package
                 </Button>
@@ -179,6 +184,9 @@ const PackagesSection = () => {
             
             <div className="mt-8 text-center">
               <Button className="bg-tayra-terra hover:bg-tayra-terra/90 text-white rounded-full group">
+              onClick={() =>
+                  trackEvent('Request Custom Package', 'PackagesSection')
+                }
                 Request Custom Package <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>

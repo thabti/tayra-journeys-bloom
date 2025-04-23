@@ -4,6 +4,7 @@ import { MapPin, Mail, Phone, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast';
+import { trackEvent } from '@/lib/utils';
 
 const ContactSection = () => {
   const { toast } = useToast();
@@ -80,7 +81,13 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="font-medium font-eb-garamond text-lg mb-1">Follow Our Journey</h3>
-                  <a href="https://instagram.com/tayraworld" className="text-tayra-terra hover:underline font-eb-garamond">@tayraworld</a>
+                  <a
+                    href="https://instagram.com/tayraworld"
+                    onClick={() => trackEvent('Click', 'Social')}
+                    className="text-tayra-terra hover:underline font-eb-garamond"
+                  >
+                    @tayraworld
+                  </a>
                 </div>
               </div>
             </div>
@@ -102,6 +109,7 @@ const ContactSection = () => {
                   />
                   <Button 
                     type="submit"
+                    onClick={() => trackEvent('Click', 'Contact')}
                     className="bg-tayra-terra hover:bg-tayra-terra/90 text-white font-eb-garamond"
                     disabled={loading}
                   >
