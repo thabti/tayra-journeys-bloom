@@ -51,7 +51,7 @@ const HeroCarousel = () => {
           <div className="absolute inset-0 flex flex-col justify-end items-center text-center pb-32 md:pb-48 px-4">
             <h1 className="text-5xl md:text-7xl font-bold text-white text-shadow mb-4 tracking-tight leading-tight font-eb-garamond">{slide.title}</h1>
 
-            <a href="/" onClick={() => trackEvent('Click', 'Home')}>
+            <a href="/" onClick={() => trackEvent('navigation', 'Home','click')}>
               <p className="text-2xl md:text-3xl text-white text-shadow mb-4 font-medium font-eb-garamond">{slide.subtitle}</p>
             </a>
 
@@ -71,14 +71,14 @@ const HeroCarousel = () => {
         <>
           <button
             onClick={prevSlide}
-            onClickCapture={() => trackEvent('Click', 'Carousel')}
+            onClickCapture={() => trackEvent('button', 'Carousel','click')}
             className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white p-2 rounded-full z-10"
             aria-label="Previous slide"
           >
             <ChevronLeft className="h-6 w-6" />
           </button>
           <button
-            onClick={nextSlide}
+             onClick={nextSlide}
             onClickCapture={() => trackEvent('Click', 'Carousel')}
             className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white p-2 rounded-full z-10"
             aria-label="Next slide"
@@ -91,7 +91,7 @@ const HeroCarousel = () => {
               <button
                 key={index}
                 onClick={() => setCurrentSlide(index)}
-                onClickCapture={() => trackEvent('Click', 'Carousel')}
+                onClickCapture={() => trackEvent('button', 'Carousel', 'click')}
                 className={`w-3 h-3 rounded-full transition-colors ${
                   index === currentSlide ? 'bg-white' : 'bg-white/50'
                 }`}

@@ -83,7 +83,7 @@ const ContactSection = () => {
                   <h3 className="font-medium font-eb-garamond text-lg mb-1">Follow Our Journey</h3>
                   <a
                     href="https://instagram.com/tayraworld"
-                    onClick={() => trackEvent('Click', 'Social')}
+                    onClick={() => trackEvent('Click', 'Social','Instagram')}
                     className="text-tayra-terra hover:underline font-eb-garamond"
                   >
                     @tayraworld
@@ -109,7 +109,7 @@ const ContactSection = () => {
                   />
                   <Button 
                     type="submit"
-                    onClick={() => trackEvent('Click', 'Contact')}
+                    onClick={() => trackEvent('Click', 'Contact','Subscribe')}
                     className="bg-tayra-terra hover:bg-tayra-terra/90 text-white font-eb-garamond"
                     disabled={loading}
                   >

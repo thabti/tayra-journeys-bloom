@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <a href="#" className="flex items-center space-x-2" onClick={() => trackEvent('click', 'Navbar', 'Logo')}>
+            <a href="#" className="flex items-center space-x-2" onClick={() => trackEvent('Navbar', 'Logo','click')}>
               <span className={`text-2xl font-serif font-bold ${isScrolled ? 'text-tayra-terra' : 'text-white text-shadow'}`}>TAYRA</span>
               <span className={`text-xl arabic ${isScrolled ? 'text-tayra-terra' : 'text-white text-shadow'}`}>طايرة</span>
             </a>
@@ -36,10 +36,10 @@ const Navbar = () => {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#destinations" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`} onClick={() => trackEvent('click', 'Navbar', 'Destinations')}>Destinations</a>
-            <a href="#about" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`} onClick={() => trackEvent('click', 'Navbar', 'About Us')}>About Us</a>
-            <a href="#destinations" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`} onClick={() => trackEvent('click', 'Navbar', 'Destinations')}>Destinations</a>
-            <a href="#contact" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`} onClick={() => trackEvent('click', 'Navbar', 'Contact')}>Contact</a>
+            <a href="#destinations" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`} onClick={() => trackEvent('Navbar', 'Destinations', 'click')}>Destinations</a>
+            <a href="#about" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`} onClick={() => trackEvent('Navbar', 'About Us','click')}>About Us</a>
+            <a href="#destinations" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`} onClick={() => trackEvent('Navbar', 'Destinations','click')}>Destinations</a>
+            <a href="#contact" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`} onClick={() => trackEvent('Navbar', 'Contact','click')}>Contact</a>
           </nav>
 
           {/* <div className="hidden md:flex items-center space-x-4">
@@ -65,11 +65,11 @@ const Navbar = () => {
         {/* Mobile Nav */}
         {isMenuOpen && (
           <div className="md:hidden pt-4 pb-3 space-y-1 animate-slide-in-right">
-            <a href="#destinations" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md" onClick={() => trackEvent('click', 'Navbar', 'Destinations')}>Destinations</a>
-            <a href="#about" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md" onClick={() => trackEvent('click', 'Navbar', 'About Us')}>About Us</a>
+            <a href="#destinations" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md" onClick={() => trackEvent('Navbar', 'Destinations','click')}>Destinations</a>
+            <a href="#about" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md" onClick={() => trackEvent('Navbar', 'About Us','click')}>About Us</a>
             {/* <a href="#packages" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md">Travel Packages</a> */}
             {/* <a href="#testimonials" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md">Testimonials</a> */}
-            <a href="#contact" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md" onClick={() => trackEvent('click', 'Navbar', 'Contact')}>Contact</a>
+            <a href="#contact" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-tayra-mint hover:text-tayra-terra rounded-md" onClick={() => trackEvent('Navbar', 'Contact','click')}>Contact</a>
             {/* <div className="pt-4 flex flex-col space-y-2">
               <Button variant="outline" className="rounded-full bg-white text-tayra-terra border-tayra-terra hover:bg-tayra-cream">
                 Sign Up
