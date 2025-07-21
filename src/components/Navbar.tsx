@@ -38,7 +38,6 @@ const Navbar = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#destinations" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`} onClick={() => trackEvent('Navbar', 'Destinations', 'click')}>Destinations</a>
             <a href="#about" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`} onClick={() => trackEvent('Navbar', 'About Us','click')}>About Us</a>
-            <a href="#destinations" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`} onClick={() => trackEvent('Navbar', 'Destinations','click')}>Destinations</a>
             <a href="#contact" className={`font-medium hover:text-tayra-terra transition-colors ${isScrolled ? 'text-gray-700' : 'text-white text-shadow'}`} onClick={() => trackEvent('Navbar', 'Contact','click')}>Contact</a>
           </nav>
 

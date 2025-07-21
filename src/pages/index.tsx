@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import HeroCarousel from '../components/HeroCarousel';
 import IncludedSection from '../components/IncludedSection';
 import Navbar from '../components/Navbar';
+import TestimonialsGallery from '../components/TestimonialsGallery';
 // import PackagesSection from '../components/PackagesSection';
 // import TestimonialsSection from '../components/TestimonialsSection';
 
@@ -34,8 +35,7 @@ export default function Home() {
       <DestinationsSection />
       <IncludedSection />
       <AboutSection />
-      {/* <PackagesSection /> */}
-      {/* <TestimonialsSection /> */}
+      <TestimonialsGallery />
       <ContactSection />
       <Footer />
     </div>

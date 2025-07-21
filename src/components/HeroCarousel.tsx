@@ -52,11 +52,11 @@ const HeroCarousel = () => {
             <h1 className="text-5xl md:text-7xl font-bold text-white text-shadow mb-4 tracking-tight leading-tight font-eb-garamond">{slide.title}</h1>
 
             <a href="/" onClick={() => trackEvent('navigation', 'Home','click')}>
-              <p className="text-2xl md:text-3xl text-white text-shadow mb-4 font-medium font-eb-garamond">{slide.subtitle}</p>
+              <p className="text-2xl md:text-4xl text-white text-shadow mb-4 font-bold font-eb-garamond tracking-tight">{slide.subtitle}</p>
             </a>
 
             {slide.description && (
-              <p className="text-xl md:text-2xl text-white text-shadow mb-4 font-light font-eb-garamond">
+              <p className="text-lg md:text-xl text-white text-shadow mb-4 font-medium font-eb-garamond tracking-tight">
                 {slide.description}
               </p>
             )}
